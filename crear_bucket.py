@@ -1,6 +1,6 @@
 import boto3
 
-def crear_bucket(event, context):
+def lambda_handler(event, context):
     # Entrada (json)
     nombre_bucket = event['body']['bucket_name']
 
